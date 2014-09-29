@@ -1,0 +1,5 @@
+[
+	{"name":"游戏服管理","uri":"/view/game-manager.jsp"},
+	{"name":"","uri":"#"},
+	{"name":"用户管理","uri":"/view/user-index.jsp"}
+]

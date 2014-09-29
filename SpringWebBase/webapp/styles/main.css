@@ -1,0 +1,185 @@
+.default-border{
+	border: 2px solid #1abc9c;border-radius: 6px;
+	margin-bottom: 18px;
+	padding: 6px 1px 1px 6px;
+	overflow-y: auto;
+}
+
+.default-error{
+	color: #e74c3c !important ;
+	border-color: #e74c3c !important ;
+	-webkit-box-shadow: none !important ;
+	box-shadow: none !important ;
+}
+
+.server-input{
+	float: left;
+	border: 0px solid #bdc3c7;
+	border-left: 1px solid #bdc3c7;
+}
+
+.server-remove{
+	color: #d9534f;
+	cursor: pointer;
+	float:left;
+	margin:5px;
+}
+.server-remove a{
+	color: #d9534f;;
+}
+.server-remove a:hover{
+	color: red;
+}
+
+.default_foucs{
+	color: #48c9b0 !important ;
+}
+
+.error_foucs{
+	color: #e74c3c !important ;
+}
+
+.navbar-fixed-top {
+  border: 0;
+}
+
+.sidebar {
+  display: none;
+}
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+  }
+}
+
+.nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 1.042;
+  font-weight: 700;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color: #1abc9c;
+}
+
+
+.main {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+.main .page-header {
+  margin-top: 0;
+}
+
+.title-font{
+	line-height: 1.042;
+	font-weight: 700;
+}
+.tips{
+	display:none;
+	padding: 8px 14px 8px 14px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	position:absolute;
+	color: #fff;
+	background-color: #2f4154;
+	border-color: #bce8f1;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	opacity: 0.8;
+	-webkit-transition: opacity .15s linear;
+	-moz-transition: opacity .15s linear;
+	-o-transition: opacity .15s linear;
+	transition: opacity .15s linear;
+}
+.controller{
+	width: 650px;
+	height: 300px;
+	background-color: #34495E;
+	color: #fff;
+	font-size: 12px;
+	overflow-y: auto;
+}
+.controller p{
+	margin: 0 0 0px;
+	font-size: 15px;
+	line-height: 1.72222;
+}
+
+/**********************************************上传css*********************************************/
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px;
+  direction: ltr;
+  cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+	}
+}
+/**********************************************上传css end******************************************/
+.content-box{
+	padding: 20px;margin: 20px 0;
+	border: 1px solid #eee;
+	border-left-width: 5px;
+	border-radius: 3px;
+}
+
+/**********************************************Loading******************************************/
+.loading{  
+    width:160px;  
+    height:56px;  
+    position: absolute;  
+    top:50%;  
+    left:50%;  
+    line-height:56px;  
+    color:#fff;  
+    padding-left:60px;  
+    font-size:15px;  
+    background: #000 url(../img/loading.gif) no-repeat 10px 50%;  
+    opacity: 0.7;  
+    z-index:9999;  
+    -moz-border-radius:20px;  
+    -webkit-border-radius:20px;  
+    border-radius:20px;  
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);  
+}
+/**********************************************Loading end******************************************/
