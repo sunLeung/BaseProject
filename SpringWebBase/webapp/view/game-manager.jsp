@@ -57,7 +57,9 @@ $(document).ready(function(){
 		    var $btn = $("#btn-start-server").button('loading');
 		    $("#server-state").text("正在开服...");
 			$.get("/gamemanager/start-server.do",function(data, textStatus, jqXHR){
-				var json=JSON.parse(data);
+				var json=data;
+				if(typeof(data)!="object")
+					json=JSON.parse(data);
 				$.myalert(json.data);
 				$("#server-state").text(json.data);
 				var timer=window.setInterval(function(){
@@ -81,7 +83,9 @@ $(document).ready(function(){
 		    $("#server-state").text("正在关服...");
 			$.get("/gamemanager/stop-server.do",function(data, textStatus, jqXHR){
 		   		$btn.button("reset");
-				var json=JSON.parse(data);
+				var json=data;
+				if(typeof(data)!="object")
+					json=JSON.parse(data);
 				$.myalert(json.data);
 				$("#server-state").text(json.data);
 			},"json");

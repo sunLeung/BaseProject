@@ -195,7 +195,9 @@ $(document).ready(function(){
 		$.myconfirm("确定创建: ["+username+"] ?",function(){
 			var requestData={username:username,password:password,repassword:repassword,groupid:groupid,power:power};
 			$.post("/user/create.do",requestData,function(data, textStatus, jqXHR){
-				var json=JSON.parse(data);
+				var json=data;
+				if(typeof(data)!="object")
+					json=JSON.parse(data);
 				$.myalert(json.data);
 				if(json.code==0){
 					$(".main").load("/view/user-index.jsp");
@@ -213,7 +215,9 @@ $(document).ready(function(){
 		var userid=$(this).attr("userid");
 		var requestData={userid:userid};
 		$.post("/user/look.do",requestData,function(data, textStatus, jqXHR){
-			var json=JSON.parse(data);
+			var json=data;
+			if(typeof(data)!="object")
+				json=JSON.parse(data);
 			if(json.code==0){
 				var userpanel=$("#userpanel");
 				var userpanel_username=userpanel.find("#userpanel_username");
@@ -244,7 +248,9 @@ $(document).ready(function(){
 		$.myconfirm("确定删除 ?",function(){
 			var requestData={id:id};
 			$.post("/user/delete.do",requestData,function(data, textStatus, jqXHR){
-				var json=JSON.parse(data);
+				var json=data;
+				if(typeof(data)!="object")
+					json=JSON.parse(data);
 				$.myalert(json.data);
 				if(json.code==0){
 					$(".main").load("/view/user-index.jsp");
@@ -257,7 +263,9 @@ $(document).ready(function(){
 		var userid=$(this).attr("userid");
 		var requestData={userid:userid};
 		$.post("/user/pre-update.do",requestData,function(data, textStatus, jqXHR){
-			var json=JSON.parse(data);
+			var json=data;
+			if(typeof(data)!="object")
+				json=JSON.parse(data);
 			if(json.code==0){
 				var userpanel=$("#update-user-panel");
 				var username=userpanel.find("#update-userpanel-username");
@@ -320,7 +328,9 @@ $(document).ready(function(){
 		$.myconfirm("确定修改 ?",function(){
 			var requestData={id:id,pwd:pwd,repwd:repwd,gid:gid,power:power};
 			$.post("/user/update.do",requestData,function(data, textStatus, jqXHR){
-				var json=JSON.parse(data);
+				var json=data;
+				if(typeof(data)!="object")
+					json=JSON.parse(data);
 				$.myalert(json.data);
 				if(json.code==0){
 					userpanel.modal("hide");
