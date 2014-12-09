@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="WebTemplate">
+		<property name="context-root" value="WebTemplate"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<wb-resource deploy-path="/" source-path="WebContent"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.1.1.RELEASE/3c79ab100df285ea0cc0b4543fe4042543405001/spring-context-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.1.1.RELEASE/4b0c607ba83c95ad9ea3defd40c35ae47c5df7d0/spring-core-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.1.1.RELEASE/5175950be849e409f328bd4ea0f16f3ea9466359/spring-aop-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-websocket/4.1.1.RELEASE/7bca57e376b3958c26b50fb158e14a06199199cc/spring-websocket-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.1.1.RELEASE/a44061faf47da974376bbfa6e84e316046d45c8c/spring-beans-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.1.1.RELEASE/c496e2c84b7275309bbe29d2fa90a968acce9ce9/spring-web-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.1.1.RELEASE/27f97cf47ac7e66915e4d42306bced91905998d6/spring-webmvc-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/l/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.1.1.RELEASE/c86cad6880c3f5c13a81677411b6f41873c80e75/spring-expression-4.1.1.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>
