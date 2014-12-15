@@ -1,0 +1,7 @@
+[
+	{"name":"用户管理","uri":"/view/user-index.jsp","authCode":1},
+	{"name":"创建用户","uri":"/user/create.do","authCode":2},
+	{"name":"查看用户","uri":"/user/look.do","authCode":3},
+	{"name":"修改用户","uri":"/user/update.do","authCode":4},
+	{"name":"删除用户","uri":"/user/delete.do","authCode":5}
+]
